@@ -103,7 +103,7 @@ export default function Page() {
                 title="Rio Writes"
                 description="
 Rio Writes is a backend system built for a blogging and content management platform. It supports user registration with email OTP verification and provides full CRUD functionality for users, posts, categories, and comments. The application is tested via Postman and structured for scalability and maintainability."
-                
+
                 image="/placeholder.svg?height=400&width=600"
                 link="https://github.com/GARALAJEET/Rio_Writes.git"
                 tags={["Spring boot", "JWT", "MySql", "API","JavaMailSender" ]}
@@ -131,19 +131,7 @@ Rio Writes is a backend system built for a blogging and content management platf
         </section>
       </main>
 
-      <footer className="border-t">
-        <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 John.dev. All rights reserved.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Privacy
-            </Link>
-          </nav>
-        </div>
-      </footer>
+     
     </div>
   )
 }
