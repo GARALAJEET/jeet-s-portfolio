@@ -12,7 +12,8 @@ export default function ResumeDownload() {
 
  
     const link = document.createElement("a")
-    link.href = "https://drive.google.com/file/d/1Q8t1rjBpuIX0P-L15Kz5v_myQO8lJs2D/view?usp=drive_link" // Path to your resume PDF in the public folder
+    link.href = "https://drive.google.com/file/d/1Q8t1rjBpuIX0P-L15Kz5v_myQO8lJs2D/view?usp=drive_link"
+    link.target = "_blank"
     link.download = "JEET_GARALA_CV.pdf" 
     document.body.appendChild(link)
     link.click()

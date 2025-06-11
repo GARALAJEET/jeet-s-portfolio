@@ -6,6 +6,7 @@ import TechStack from "./components/tech-stack"
 import LeetCodeStats from "./components/leetcode-stats"
 import AboutMe from "./components/about-me"
 import ResumeDownload from "./components/resume-download"
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -37,44 +38,64 @@ export default function Page() {
 
       <main className="container px-4 md:px-6">
         <section id="about" className="py-12 md:py-24 lg:py-32">
+          
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                 Hi, I'm Jeet Garala 👋
-                </h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Building digital experiences with modern technologies. Focused on creating elegant solutions to complex problems.
-                </p>
-              </div>
-              <div className="space-x-4">
-                <Link href="https://github.com/GARALAJEET" target="_blank">
-                  <Button variant="outline" size="icon">
-                    <Github className="h-4 w-4" />
+  <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+    <div className="relative w-64 h-64">
+      <Image
+        src="/images/rio1.jpg" 
+        alt="Jeet Garala"
+        width={400}
+        height={400}
+        className="rounded-full object-cover border-4 shadow-lg"
+        priority
+      />
+    </div>
+    
+    <div className="flex flex-col space-y-4 text-center md:text-left">
+      
+      <div className="space-y-2">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+          Hi, I'm Jeet Garala 👋
+        </h1>
+        <p className="max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+          Building digital experiences with modern technologies. Focused on creating elegant solutions to complex problems.
+        </p>
+      </div>
+      
+      <div className="space-x-6">
+        {/* ...existing social media buttons... */}
+         <Link href="https://github.com/GARALAJEET" target="_blank">
+                  <Button variant="outline" size="icon" className="w-12 h-12">
+                    <Github className="h-10 w-10"  />
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
                 <Link href="https://www.linkedin.com/in/jeet-garala-9235602bb/" target="_blank">
-                  <Button variant="outline" size="icon">
-                    <Linkedin className="h-4 w-4" />
+                  <Button variant="outline" size="icon" className="w-12 h-12">
+                    <Linkedin className="h-10 w-10" />
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
                 <Link href="https://x.com/jeet_garala" target="_blank">
-                  <Button variant="outline" size="icon">
-                    <Twitter className="h-4 w-4" />
+                  <Button variant="outline" size="icon" className="w-12 h-12">
+                    <Twitter className="h-10 w-10" />
                     <span className="sr-only">Twitter</span>
                   </Button>
                 </Link>
                 <Link href="mailto:jeetgarala2603@gmail.com" target="_blank">
-                  <Button variant="outline" size="icon">
-                    <Mail className="h-4 w-4" />
+                  <Button variant="outline" size="icon" className="w-12 h-12">
+                    <Mail className="h-10 w-10" />
                     <span className="sr-only">Email</span>
                   </Button>
                 </Link>
-              </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div style={{ width: '10px', height: '300px', position: 'relative' }}>
+
             </div>
-          </div>
         </section>
 
         <section id="about-me" className="py-12 md:py-24 lg:py-32">
