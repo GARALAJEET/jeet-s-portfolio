@@ -57,7 +57,7 @@ export default function AboutMe() {
                   </Badge> */}
                 </div>
                 <p className="text-sm text-muted-foreground">
-                 ’m a passionate Java Developer with a strong foundation in object-oriented programming, data structures, and web development. I recently graduated Magna Cum Laude, where I focused on building backend systems and solving algorithmic problems through clean, efficient Java code.
+                I’m a passionate Java Developer with a strong foundation in object-oriented programming, data structures, and web development. I focus on building robust backend systems and solving algorithmic problems through clean, efficient Java code.
                 </p>
               </div>
 

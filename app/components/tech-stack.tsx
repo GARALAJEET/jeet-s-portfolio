@@ -2,21 +2,30 @@ import { Card } from "@/components/ui/card"
 
 const technologies = [
   {
-    category: "Frontend",
-    skills: ["React", "Next.js", , "TailwindCSS",  "JavaScript", "HTML", "CSS"],
+    category: "Languages",
+    skills: ["Java ", "Python", "SQL"],
+  },
+  {
+    category: "Core Concepts",
+    skills: ["Object-Oriented Programming ", "SQL Query Writing", "Data Structures and Algorithms","Software Engineering"],
+  },
+  {
+    category: "Frontend ",
+    skills: ["HTML ", "CSS", "JavaScript","TailwindCSS" , "React", "Next.js","Bootstrap"],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "Python", "Java","Spring boot","Spring"],
+    skills: [ "Spring boot","Spring Framework","Spring MVC", "Spring Security","Node.js", "Express","REST APIs"],
   },
   {
     category: "Database and ORMs",
-    skills: ["MySql", "PostgreSQL", "Hibernate"],
+    skills: ["MySql", "PostgreSQL", "Hibernate(ORM)","SQLite"],
   },
   {
-    category: "Tools",
-    skills: ["VS Code", "Postman", "IntelliJ", "GitHub", "Vercel"],
+    category: "Tools and Platforms",
+    skills: ["Git", "GitHub", "Maven", "Postman", "Vercel", "VSCode", "IntelliJ IDEA"],
   },
+ 
 ]
 
 export default function TechStack() {
