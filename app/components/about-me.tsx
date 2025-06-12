@@ -28,7 +28,7 @@ export default function AboutMe() {
                 <Badge variant="secondary">Problem Solver</Badge>
                 <Badge variant="secondary">Team Player</Badge>
                 {/* <Badge variant="secondary">Open Source Contributor</Badge> */}
-                {/* <Badge variant="secondary">Continuous Learner</Badge> */}
+                <Badge variant="secondary">Continuous Learner</Badge>
               </div>
             </CardContent>
           </Card>
