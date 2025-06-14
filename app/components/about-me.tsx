@@ -87,6 +87,12 @@ export default function AboutMe() {
                       2025
                     </Badge>
                   </div>
+                  <div className="flex justify-between items-center">
+                    <a href="https://coursera.org/share/139bbb4f16942db4e4b1a4157af5810d" className="text-sm" target="_black">Advanced Spring Concepts and Functional Programming</a>
+                    <Badge variant="secondary" className="text-xs">
+                      2025
+                    </Badge>
+                  </div>
                     <div className="flex justify-between items-center">
                     <a href="https://coursera.org/share/71a5e22281dafa0003598cf42d75e569" className="text-sm" target="_black">Exploratory Data Analysis for Machine Learning</a>
                     <Badge variant="secondary" className="text-xs">
