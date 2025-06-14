@@ -67,12 +67,7 @@ export default function AboutMe() {
                   Certifications
                 </h4>
                 <div className="space-y-2">
-                   <div className="flex justify-between items-center">
-                    <a href="https://coursera.org/share/df413ae7a3a6db480c3355955e87d639" className="text-sm" target="_black">Introduction to HTML, CSS, & JavaScript</a>
-                    <Badge variant="secondary" className="text-xs">
-                      2024
-                    </Badge>
-                  </div>
+                 
                   <div className="flex justify-between items-center">
                     <a href="https://coursera.org/share/fed81dbeebcab1cec21ee46867c29c94" className="text-sm" target="_black">Introduction to Java</a>
                     <Badge variant="secondary" className="text-xs">
@@ -88,6 +83,12 @@ export default function AboutMe() {
                  
                   <div className="flex justify-between items-center">
                     <a href="https://coursera.org/share/68e236b948e556af86b67c217a1a59b1" className="text-sm" target="_black">Spring Boot Foundations</a>
+                    <Badge variant="secondary" className="text-xs">
+                      2025
+                    </Badge>
+                  </div>
+                    <div className="flex justify-between items-center">
+                    <a href="https://coursera.org/share/71a5e22281dafa0003598cf42d75e569" className="text-sm" target="_black">Exploratory Data Analysis for Machine Learning</a>
                     <Badge variant="secondary" className="text-xs">
                       2025
                     </Badge>
